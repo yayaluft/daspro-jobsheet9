@@ -13,4 +13,4 @@
 2. Saya menambahkan sintaks dibawah
     int [] bil = {5, 13, -7, 17};
 3. program mengeluarkan output yang sama persis seperti sebelumnya. Statement ini mencetak seluruh elemen array satu per satu dari indeks 0 hingga 3.
-4. Setelah mengubah kondisi tersebut program menjadi error. Karena indeks hanya sampai 4, sedangkan kondisi tersebut memerlukan length=5.
+4. Setelah mengubah kondisi tersebut program hanya mencetak hingga indeks 3, dan pada indeks ke 4 tidak mengeluarkan output. Karena indeks hanya sampai 3, sedangkan kondisi tersebut memerlukan length=5.
