@@ -14,3 +14,31 @@
     int [] bil = {5, 13, -7, 17};
 3. program mengeluarkan output yang sama persis seperti sebelumnya. Statement ini mencetak seluruh elemen array satu per satu dari indeks 0 hingga 3.
 4. Setelah mengubah kondisi tersebut program hanya mencetak hingga indeks 3, dan pada indeks ke 4 tidak mengeluarkan output. Karena indeks hanya sampai 3, sedangkan kondisi tersebut memerlukan length=5.
+
+**PERCOBAAN 2--**
+1. Ubah statement pada langkah nomor 5 menjadi seperti berikut ini:
+    for (int i = 0; i < nilaiAkhir.length; i++) {
+        System.out.print("Masukkan nilai akhir ke-"+i+" : ");
+        nilaiAkhir[i] = sc.nextInt();
+    }
+    Jalankan program. Apakah terjadi perubahan? Mengapa demikian?
+2. Apa yang dimaksud dengan kondisi: i < nilaiAkhir.length?
+3. Ubah  statement pada langkah nomor 6 menjadi seperti berikut ini, sehingga program 
+hanya menampilkan nilai Mahasiswa yang lulus saja (yaitu mahasiswa yang memiliki nilai > 70):
+    for (int i = 0; i < nilaiAKhir.length; i++) {
+        if (nilaiAKhir[i] > 70) {
+            System.out.println("Mahasiswa ke-")
+        }
+    }
+    Jalankan program dan jelaskan alur program!
+4. Modifikasi program agar menampilkan status kelulusan semua mahasiswa berdasarkan nilai, yaitu dengan menampilkan status mana mahasiswa yang lulus dan tidak lulus, seperti ilustrasi output berikut: 
+
+**Jawaban:**
+1. Tidak terjadi perubahan, perulangan berjalan sebanyak jumlah array (indeks i bernilai 0 sampai 9).
+2. Kondisi i < nilaiAkhir.length melakukan perulangan selama nilai i masih bernilai true dari jumlah elemen array tersebut, apabila i=10 maka kondisi akan bernilai false dan perulangan berhenti.
+3. Setelah menambahkan statement tersebut, program mencetak output status mahasiswa lulus yang nilainya lebih dari 70. Program akan mencetak berikut:
+"Mahasiswa ke-i lulus!"
+4. Saya menambahkan struktur else dibawah struktur if mahasiswa lulus
+    else {
+        System.out.println("Mahasiswa ke-"+i+" tidak lulus!");
+    }
