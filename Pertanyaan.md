@@ -53,3 +53,13 @@ hanya menampilkan nilai Mahasiswa yang lulus saja (yaitu mahasiswa yang memiliki
         lulus++;
     }
 2. Saya telah commit modifikasi tersebut.
+
+**--PERCOBAAN 4--**
+1.  Jelaskan maksud dari statement break; pada baris ke-10 kode program percobaan 4 di atas. 
+2. Modifikasi kode program pada percobaan 4 di atas sehingga program dapat menerima input berupa banyaknya elemen array nilai, isi array, dan sebuah nilai (key) yang ingin dicari. Lalu cetak ke layar indeks posisi elemen dari nilai (key) yang dicari. Contoh hasil program:
+3. Modifikasi program pada percobaan 4 di atas, sehingga program akan memberikan pesan "Nilai yang dicari tidak ditemukan" jika nilai yang dicari (key) tidak ada di dalam array. Contoh tampilan program sebagai berikut:
+
+**Jawaban:**
+1. statement break; berfungsi untuk menghentikan perulangan secara paksa walaupun kondisi perulangan belum selesai. Ketika program telah menemukan nilai yang dicari, maka program akan langsung berhenti dari perulangan.
+2. Sudah saya modifikasi dan commit.
+3. Sudah saya modifikasi dan commit.
