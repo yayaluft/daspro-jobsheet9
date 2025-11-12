@@ -11,7 +11,8 @@ public class MenuCafe {
         sc.nextLine();
 
         int[] arrJumlah = new int[jumlah];
-        String[] arrNama = new String[jumlah];
+        String[] arrNama = { "Nasi Goreng", "Mie Goreng", "Roti Bakar", "Kentang Goreng", "Teh Tarik", "Cappucino",
+                "Chocolate" };
         int[] arrHarga = new int[jumlah];
 
         for (int i = 0; i < arrJumlah.length; i++) {
